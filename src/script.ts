@@ -29,7 +29,7 @@ interface Vehicle {
       <td>${vehicle.plate}</td>
       <td>${vehicle.startDate}</td>
       <td>
-      <button class="delete" data-plate="${vehicle.plate}">
+      <button class="delete btn btn-danger btn-sm" data-plate="${vehicle.plate}">
       X
       </button>
       </td>
