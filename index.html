@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Parking</title>
+	</head>
+	<body>
+		<div>
+			<input type="text" placeholder="Enter vehicle name:" id="name" />
+			<input type="text" placeholder="Enter plate of vehicle:" id="plate" />
+			<button id="register">Register</button>
+		</div>
+
+		<div>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Plate</th>
+						<th>Start time</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody id="park"></tbody>
+			</table>
+		</div>
+
+		<script src="./dist/script.js"></script>
+	</body>
+</html>
